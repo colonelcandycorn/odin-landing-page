@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 200px;
+}
+
+/* temporary image resize */
+
+img {
+    height: 300px;
+    width: 600px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
