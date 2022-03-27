@@ -94,6 +94,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .container.second > * {
