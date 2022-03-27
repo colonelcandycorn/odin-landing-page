@@ -1,2 +1,2 @@
-# odin-landing-page
-Landing Page project
+# Potato-landing-page
+I decided to make this potato themed
