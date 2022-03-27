@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 3vw 14vw;
+    padding: 2vw 14vw;
     justify-content: flex-start;
     background-color: #1f2937;
     color: #f9faf8;
@@ -24,17 +24,24 @@ body {
 }
 
 .Header {
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .container.top ul {
     display: flex;
     justify-content: right;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb; 
 }
 
 .hero-content {
@@ -53,7 +60,9 @@ h1 {
 }
 
 li {
+    flex: 1 1 auto;
     min-width: 16ch;
+    text-align: right;
 }
 
 .container.top img{
